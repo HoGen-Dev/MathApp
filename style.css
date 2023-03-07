@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'DotGothic16', sans-serif;
+    background-color: beige;
+}
+
+nav ul {
+    height: 10vh;
+    background-color: beige;
+    border-bottom: #ead963 6px solid;
+    list-style: none;
+    font-size: 1.25rem;
+    margin: 0 auto;
+    padding: 0 4%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#content {
+    margin: 5rem auto;
+    padding: 1rem;
+    max-width: 1500px;
+    background-color: cornsilk;
+    border: tomato 10px solid;
+    border-radius: 50px;
+}
+
+#title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#main {
+    text-align: center;
+    line-height: 1.7;
+}
+
+hr {
+    border: 2px solid #ead963;
+    border-radius: 10px;
+    margin: 1rem;
+}
